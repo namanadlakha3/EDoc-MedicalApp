@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="CareMed demo project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+<link rel="stylesheet" type="text/css" href="styles/about.css">
+<link rel="stylesheet" type="text/css" href="styles/about_responsive.css">
+</head>
+<body>
+
+<div class="super_container">
+	
+	<!-- Header -->
+
+	<header class="header trans_200">
+		
+		<!-- Top Bar -->
+		<div class="top_bar">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="top_bar_content d-flex flex-row align-items-center justify-content-start">
+							<div class="emergencies  d-flex flex-row align-items-center justify-content-start ml-auto">For Emergencies: 102</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Header Content -->
+		<div class="header_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="header_content d-flex flex-row align-items-center justify-content-start">
+							<nav class="main_nav ml-auto">
+								<ul>
+									<li class="menu_item menu_mm"><a href="home.html">Home</a></li>
+					<li class="menu_item menu_mm"><a href="bmi.html">BMI & BMR Analysis</a></li>
+					<li class="menu_item menu_mm"><a href="disease.php">Malaria Analysis </a></li>
+					<li class="menu_item menu_mm"><a href="dsearch.php">Disease Search</a></li>
+					<li class="menu_item menu_mm"><a href="msearch.php">Medicine Search</a></li>
+					<li class="menu_item menu_mm"><a href="javascript:myFunction();">Log Out</a></li>
+								</ul>
+							</nav>
+							<div class="hamburger ml-auto"><i class="fa fa-bars" aria-hidden="true"></i></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Logo -->
+		<div class="logo_container_outer">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+					<div class="col-lg-5">
+						<div class="logo_container">
+							<a href="#">
+								<div class="about_image"><img src="imagehac.png" alt=""></div>
+							</a>
+							
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+
+	</header>
+
+	<!-- Menu -->
+
+	<div class="menu_container menu_mm">
+
+		<!-- Menu Close Button -->
+		<div class="menu_close_container">
+			<div class="menu_close"></div>
+		</div>
+
+		<!-- Menu Items -->
+		<div class="menu_inner menu_mm">
+			<div class="menu menu_mm">
+				<ul class="menu_list menu_mm">
+					<li class="menu_item menu_mm"><a href="home.html">Home</a></li>
+					<li class="menu_item menu_mm"><a href="bmi.html">BMI & BMR Analysis</a></li>
+					<li class="menu_item menu_mm"><a href="disease.php">Malaria Analysis </a></li>
+					<li class="menu_item menu_mm"><a href="dsearch.php">Disease Search</a></li>
+					<li class="menu_item menu_mm"><a href="msearch.php">Medicine Search</a></li>
+					<li class="menu_item menu_mm"><a href="logout.html">Log Out</a></li>
+				</ul>
+			</div>
+			<div class="menu_extra">
+				<div class="menu_emergencies">For Emergencies: 102</div>
+			</div>
+<
+		</div>
+
+	</div>
+	
+	<!-- Home -->
+
+	<div class="home">
+		<div class="home_background parallax-window" data-parallax="scroll" data-image-src="images/about.jpg" data-speed="0.8"></div>
+		<div class="home_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="home_content">
+							<div class="home_title">BMI & BMR <span>Calculator</span></div>
+							<div class="breadcrumbs">
+								<ul>
+									
+								</ul>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<div class="container">
+    <h1 class="brand"><span>BMI & BMR Calculator</span> Plan your Diet Chart</h1>
+    <div class="wrapper">
+      <div class="company-info">
+       
+       
+      </div>
+      <div class="contact">
+        <div class="alert">Database have been updated.</div>
+        <form id="contactForm" action="#" method="post">
+          <p>
+            <label>Name</label>
+            <input type="text" name="name" id="name" required placeholder="Enter your name">
+          </p>
+          <p>
+            <label>Age</label>
+            <input type="text" name="age" id="age" required placeholder="Age">
+          </p>
+          <p>
+            <label>Weight</label>
+            <input type="text" name="weight" id="weight" required placeholder="Weight in KG">
+          </p>
+          <p>
+            <label>Height</label>
+            <input type="text" name="height" id="height" required placeholder="Height in feet">
+          </p>
+          
+         <p>
+            <label>Gender</label>
+            <input type="text" name="gender" id="gender" required placeholder="Gender">
+          </p>
+        <br>
+		
+		<label> Activity Factor</label>
+		<br><select name="activity" id="activity">
+		<option value="Little or no exercise"> Little or no exercise<br>
+		<option value="Light exercise/sports 1-3 days/week">Light exercise/sports 1-3 days/week<br>
+		<option value="Moderate exercise/sports 3-5 days/week"> Moderate exercise/sports 3-5 days/week<br>
+		<option value="Hard exercise/sports 6-7 days a week"> Hard exercise/sports 6-7 days a week<br>
+		<option value="Very hard exercise/sports & physical job or 2x training"> Very hard exercise/sports & physical job or 2x training<br>
+</select>
+		<br>
+		
+          <p class="full">
+            <input type="submit" name="submit" id="submit"  >
+          </p>
+		  <p id="demo">
+		  </p>
+        </form>
+		Diet Plan:
+		<br>
+		
+		<textarea rows="8" cols="80" id="info">
+</textarea> 
+      </div>
+    </div>
+  </div>
+ 
+  <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+ 
+<br>
+<br>
+
+
+
+
+
+<script>
+function myFunction() {
+  var txt;
+  if (confirm("Are you sure you want to log out ?")) {
+   window.location.href = "index.html";
+
+  } else {
+    
+  }
+  document.getElementById("demo").innerHTML = txt;
+}
+
+</script>
+
+<p id="demo"></p>
+
+
+
+	
+<script>
+// Initialize Firebase (ADD YOUR OWN DATA)
+    var firebaseConfig = {
+        apiKey: "AIzaSyC72TTnfW6r2DGyBlQQJSAYIJyIpKCt4QA",
+    authDomain: "edoc-b5de1.firebaseapp.com",
+    databaseURL: "https://edoc-b5de1.firebaseio.com",
+    projectId: "edoc-b5de1",
+    storageBucket: "edoc-b5de1.appspot.com",
+    messagingSenderId: "1072128580110",
+    appId: "1:1072128580110:web:b5037102bfd030ca2e7a5f",
+    measurementId: "G-L9MH4YK8SH"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+
+// Reference messages collection
+var messagesRef = firebase.database().ref('messages');
+
+// Listen for form submit
+document.getElementById('contactForm').addEventListener('submit', submitForm);
+
+// Submit form
+function submitForm(e){
+  e.preventDefault();
+
+  // Get values
+  var name = getInputVal('name');
+  var age = getInputVal('age');
+  var weight = getInputVal('weight');
+  var height = getInputVal('height');
+  var gender = getInputVal('gender');
+  var activity=getInputVal('activity');
+  var heightm=height*0.30;
+//BMI
+var bmi=(weight)/(heightm*heightm);
+var bmr=0;
+var cn=0;
+var dietplan="";
+if(gender.toLowerCase()=="male")
+{
+bmr=66+(13.7*weight)+(5*heightm*100)-(6.8*age);
+}
+else
+{
+bmr=655 + (9.6*weight) + (1.8 *height*100) - (4.7 *age);
+}
+
+
+
+//Calories Needed
+if(activity.toLowerCase()=='little or no exercise')
+{
+cn=bmr*1.2;
+if(gender.toLowerCase()=="male")
+{
+dietplan="Cereals-460gm,Pulses-40gm,Green Leafy Vegetable-40gm,Other Vegetable-60,Roots and Tubers-50,Milk and milk products-150,Oils and fats-40,Fruits-60,Sugar and jaggery-30";
+}
+else
+{
+dietplan="Cereals-410gm,Pulses-40gm,Green Leafy Vegetable-100gm,Other Vegetable-40,Roots and Tubers-50,Milk and milk products-100,Oils and fats-20,Fruits-60,Sugar and jaggery-20";
+}
+}
+
+else if(activity.toLowerCase()=='light exercise/sports 1-3 days/week')
+{
+cn=bmr*1.375;
+if(gender.toLowerCase()=="male")
+{
+dietplan="Cereals-460gm,Pulses-40gm,Green Leafy Vegetable-40gm,Other Vegetable-60,Roots and Tubers-50,Milk and milk products-150,Oils and fats-40,Fruits-60,Sugar and jaggery-30";
+}
+else
+{
+dietplan="Cereals-410gm,Pulses-40gm,Green Leafy Vegetable-100gm,Other Vegetable-40,Roots and Tubers-50,Milk and milk products-100,Oils and fats-20,Fruits-60,Sugar and jaggery-20";
+}
+}
+
+else if(activity.toLowerCase()=='moderate exercise/sports 3-5 days/week')
+{
+cn=bmr*1.55;
+if(gender.toLowerCase()=="male")
+{
+dietplan="Cereals-520gm,Pulses-50gm,Green Leafy Vegetable-40gm,Other Vegetable-70,Roots and Tubers-60,Milk and milk products-200,Oils and fats-45,Fruits-60,Sugar and jaggery-35";
+}
+else
+{
+dietplan="Cereals-410gm,Pulses-40gm,Green Leafy Vegetable-100gm,Other Vegetable-40,Roots and Tubers-50,Milk and milk products-100,Oils and fats-20,Fruits-60,Sugar and jaggery-20";
+}
+}
+
+else if(activity.toLowerCase()=='hard exercise/sports 6-7 days a week')
+{
+cn=bmr*1.725;
+if(gender.toLowerCase()=="male")
+{
+dietplan="Cereals-670gm,Pulses-60gm,Green Leafy Vegetable-40gm,Other Vegetable-80,Roots and Tubers-80,Milk and milk products-250,Oils and fats-65,Fruits-60,Sugar and jaggery-55";
+}
+else
+{
+dietplan="Cereals-440gm,Pulses-45gm,Green Leafy Vegetable-100gm,Other Vegetable-40,Roots and Tubers-50,Milk and milk products-120,Oils and fats-25,Fruits-60,Sugar and jaggery-20";
+}
+
+}
+
+else if(activity.toLowerCase()=='very hard exercise/sports & physical job or 2x training')
+{
+cn=bmr*1.9;
+
+if(gender.toLowerCase()=="male")
+{
+dietplan="Cereals-670gm,Pulses-60gm,Green Leafy Vegetable-40gm,Other Vegetable-80,Roots and Tubers-80,Milk and milk products-250,Oils and fats-65,Fruits-60,Sugar and jaggery-55";
+}
+else
+{
+dietplan="Cereals-440gm,Pulses-45gm,Green Leafy Vegetable-100gm,Other Vegetable-40,Roots and Tubers-50,Milk and milk products-120,Oils and fats-25,Fruits-60,Sugar and jaggery-20";
+}
+}
+
+
+
+
+
+  //var message = getInputVal('message');
+
+  // Save message
+  saveMessage(name, age, weight, height,gender,activity,bmi,bmr,cn,dietplan);
+
+  // Show alert
+  document.querySelector('.alert').style.display = 'block';
+
+  // Hide alert after 3 seconds
+  setTimeout(function(){
+    document.querySelector('.alert').style.display = 'none';
+  },3000);
+
+  // Clear form
+ // document.getElementById('contactForm').reset();
+}
+
+// Function to get get form values
+function getInputVal(id){
+  return document.getElementById(id).value;
+}
+function saveMessage(name, age, weight, height,gender,activity,bmi,bmr,cn,dietplan){
+  var newMessageRef = messagesRef.push();
+  newMessageRef.set({
+    name: name,
+   age:age,
+   weight:weight,
+   height:height,
+   gender:gender,
+   activity:activity,
+   bmi:bmi,
+   bmr:bmr,
+   cn:cn,
+   dietplan:dietplan
+  
+  });
+  
+  
+document.getElementById("info").innerHTML="Diet Plan:-"+dietplan;
+// Save message to firebase
+
+}</script>
+
+
+
+
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap4/popper.js"></script>
+<script src="styles/bootstrap4/bootstrap.min.js"></script>
+<script src="plugins/greensock/TweenMax.min.js"></script>
+<script src="plugins/greensock/TimelineMax.min.js"></script>
+<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="plugins/greensock/animation.gsap.min.js"></script>
+<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="plugins/progressbar/progressbar.min.js"></script>
+<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="plugins/parallax-js-master/parallax.min.js"></script>
+<script src="js/about.js"></script>
+</body>
+</html>
+
+
+
